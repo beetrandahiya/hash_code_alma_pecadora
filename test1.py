@@ -16,10 +16,13 @@ for i in range(len(disliked)):
     if(disliked[i] in liked):
         index=liked.index(disliked[i])
         liked.pop(index)
+
+liked=list(set(liked))
         
 finalstring=str(len(liked))+" "
 
 for i in range(len(liked)):
     finalstring+=liked[i]+" "
+
 
 print(finalstring)

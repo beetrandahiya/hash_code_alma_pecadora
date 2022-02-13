@@ -1,0 +1,11 @@
+5
+3 a b c
+2 d e
+3 c b d
+2 e f
+3 f a d
+2 b c
+3 g h a
+2 d e
+3 h i b
+2 a c
